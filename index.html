@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="gulp/dist/css/index.min.css">
+</head>
+<body>
+	<section id="head">
+		<div class="margin">
+			<div class="lhead">
+				<p class="bl-name">百联集团旗下全渠道电商平台</p>
+				<span>|</span>
+				<div class="hgloab">
+					<a href="#">网站导航<i></i></a>
+					<div class="daohang">
+						<p><a href="#">百联集团官网</a></p>
+						<p><a href="#">安付宝网</a></p>
+						<p><a href="#">第一医药</a></p>
+						<p><a href="#">OK会员卡专区</a></p>
+					</div>
+				</div>
+				<p class="msg"><a href="#">消息</a></p>
+			</div>
+			<div class="rhead">
+				<ul>
+					<li>
+						<a href="#" class="te">请登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+						<a href="#">注册</a>
+					</li>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">我的百联</a></li>
+					<li><a href="#">充值缴费</a></li>
+					<li><a href="#">客户服务</a></li>
+					<li><a href="#">掌上百联</a></li>
+					<li><a href="#">购物车</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="header">
+		<div class="margin">
+			<img src="gulp/dist/images/header-logo.png" class="logo">
+			<img src="gulp/dist/images/1580766622.jpg" class="iphone">
+			<div class="search">
+				<div class="head_input">
+					<input type="text" name="" placeholder="矿泉水" class="txt">
+				</div>
+				<div class="head_button">
+					<input type="button" name="" value="搜索" class="btn">
+				</div>
+				<div class="searchword">
+					<a href="#">surface go</a>
+					<span>|</span><a href="#">牛奶</a>
+					<span>|</span><a href="#">大米</a>
+					<span>|</span><a href="#">手机</a>
+					<span>|</span><a href="#">洗衣液</a>
+					<span>|</span><a href="#">牙膏</a>
+					<span>|</span><a href="#">华为</a>
+					<span>|</span><a href="#">酸奶</a>
+					<span>|</span><a href="#">卫生巾</a>
+					<span>|</span><a href="#">米</a>
+				</div>
+			</div>
+			<div class="afb">安付宝OK卡专区></div>
+		</div>
+	</section>
+	<section id="nav">
+		<div class="margin">
+			<div class="allkinds">
+				<div class="san"></div>
+				<a href="#">所有商品分类</a>
+				<div class="allk">
+					<ul>
+						<li><a href="#">百联进口 全球购</a></li>
+						<li><a href="#">生鲜食品</a></li>
+						<li><a href="#">食品粮油</a><a href="#">酒水冲饮</a></li>
+						<li><a href="#">美容护理</a></li>
+						<li><a href="#">餐厨用具 家居家装</a></li>
+						<li><a href="#">母婴玩具</a></li>
+						<li><a href="#">家清 纸品 一次性</a></li>
+						<li><a href="#">女装男装</a></li>
+						<li><a href="#">鞋靴箱包</a><a href="#">珠宝饰品</a></li>
+						<li><a href="#">手机数码</a><a href="#">电脑办公</a></li>
+						<li><a href="#">家用电器</a></li>
+						<li><a href="#">运动户外</a><a href="#">汽车用品</a></li>
+						<li><a href="#">营养保健</a><a href="#">第一医药</a></li>
+						<li><a href="#">礼品卡</a><a href="#">充值</a><a href="#">图书</a></li>
+					</ul>
+				</div>
+			</div>
+			<ul class="nv">
+				<li><a href="#">生活日用<a></li>
+				<li><a href="#">24H百货<a></li>
+				<li><a href="#">全球购<a></li>
+				<li><a href="#">精品闪购<a></li>
+				<li><a href="#">电器城<a></li>
+				<li><a href="#">奥莱代购<a></li>
+				<li><a href="#">百联卡<a></li>
+				<li><a href="#">百联到家<a></li>
+			</ul>
+		</div>
+	</section>
+	<section id="banner">
+		<div class="margin">
+		</div>
+	</scetion>
+	<section id="main">
+		<div class="margin">
+			<div id="main1"></div>
+			<div id="main2"></div>
+			<div id="main3"></div>
+			<div id="main4"></div>
+			<div id="main5"></div>
+			<div id="main6"></div>
+			<div id="main7"></div>
+			<div id="main8"></div>
+			<div id="main9"></div>
+			<div id="main10"></div>
+		</div>
+	</section>
+	<sction id="footer">
+		<div class="margin">
+			<div class="helpnav"></div>
+			<div class="bottomnav"></div>
+		</div>
+	</sction>
+	<section id="gloab"></section>
+	<section id="shopcart"></section>
+	<script>
+		var oGloab = document.querySelector('#head .lhead .hgloab');
+		var oDao = document.querySelector('#head .lhead .hgloab .daohang');
+		oGloab.onmouseover = function(){
+			oDao.style.display = 'block';
+		}
+		oGloab.onmouseout = function(){
+			oDao.style.display = 'none';
+		}
+	</script>
+</body>
+</html>
