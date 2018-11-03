@@ -1,0 +1,215 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+/* CSS Document */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 12px  "宋体";
+  word-wrap: break-word; }
+
+a, u, s, del {
+  color: #666;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+fieldset, a img, .bor0 {
+  border: 0; }
+
+i, em, b {
+  font-style: normal;
+  font-weight: 100; }
+
+li {
+  list-style: none; }
+
+img {
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse; }
+
+.ind2 {
+  text-indent: 2em; }
+
+/*图片垂直对齐*/
+.valign {
+  text-align: center; }
+
+.valign:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%; }
+
+/*溢出隐藏出现省略号*/
+.over {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+/*万能清除法*/
+.clear {
+  zoom: 1;
+  /*解决ie67的高度塌陷问题*/ }
+
+.clear:before {
+  content: "";
+  display: table; }
+
+/*解决第一个子元素margin-top向上传递问题*/
+.clear:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.margin {
+  width: 952px;
+  margin: 0 auto; }
+
+#head {
+  overflow: hidden; }
+  #head .logo {
+    display: block;
+    float: left;
+    margin: 18px 40px 0 0; }
+  #head span {
+    display: block;
+    float: left;
+    width: 1px;
+    height: 45px;
+    background: #dddddd;
+    margin: 33px 30px 0 7px; }
+  #head h3 {
+    font: 24px/110px ""; }
+
+#main {
+  background: url(../images/login-body.jpg) no-repeat; }
+  #main .login {
+    padding: 0 95px;
+    width: 298px;
+    height: 472px;
+    border: 6px solid #e2e2e2;
+    background: #fff;
+    margin: 30px auto; }
+    #main .login .top {
+      padding-top: 40px;
+      overflow: hidden; }
+      #main .login .top p {
+        font: 18px/54px "";
+        float: left; }
+      #main .login .top a {
+        font: 12px/54px "";
+        float: right;
+        color: #0088cc; }
+    #main .login input {
+      width: 297px;
+      height: 34px;
+      border: 1px solid #e2e2e2;
+      font: 12px/34px "";
+      text-indent: 35px;
+      margin-top: 20px; }
+    #main .login input:nth-of-type(1) {
+      background: url(../images/user.png) no-repeat 9px 9px; }
+    #main .login input:nth-of-type(2) {
+      background: url(../images/pwd.png) no-repeat 9px 9px; }
+    #main .login .forget {
+      float: right;
+      font: 12px/12px "";
+      margin-top: 20px; }
+    #main .login input.btn {
+      background: #e6133c;
+      border: 0;
+      height: 36px;
+      color: #fff;
+      text-indent: 0;
+      font: 14px/36px ""; }
+    #main .login .huiyuan {
+      overflow: hidden; }
+      #main .login .huiyuan img {
+        float: right;
+        margin: 20px 8px 0 0; }
+      #main .login .huiyuan a {
+        float: right;
+        font: 12px/52px ""; }
+      #main .login .huiyuan a:hover {
+        color: #0088cc; }
+    #main .login .lianhe p {
+      font: 12px/38px "";
+      color: #999999;
+      margin-bottom: 10px;
+      text-align: center;
+      position: relative; }
+      #main .login .lianhe p i.zuo {
+        position: absolute;
+        left: 0;
+        top: 25px;
+        width: 87px;
+        height: 1px;
+        background: #e2e2e2; }
+      #main .login .lianhe p i.you {
+        position: absolute;
+        right: 0;
+        top: 25px;
+        width: 87px;
+        height: 1px;
+        background: #e2e2e2; }
+    #main .login .lianhe ul {
+      overflow: hidden; }
+      #main .login .lianhe ul li {
+        width: 70px;
+        height: 24px;
+        margin: 0 14px 10px 14px;
+        float: left;
+        background: url(../images/logo-1.png) no-repeat;
+        background-size: 100% 100%;
+        opacity: .5; }
+      #main .login .lianhe ul li:hover {
+        opacity: 1; }
+
+#footer {
+  margin-top: 20px; }
+  #footer .bottomnav {
+    padding: 10px 0 20px 0;
+    text-align: center;
+    font: 12px/24px ""; }
+    #footer .bottomnav a:hover {
+      text-decoration: none; }
+    #footer .bottomnav .hezuo a {
+      color: #000; }
+    #footer .bottomnav .hezuo a:hover {
+      color: #ff6f6f; }
+    #footer .bottomnav .hezuo span {
+      margin: 0 8px;
+      color: #999999; }
+    #footer .bottomnav .copyright {
+      color: #999999; }
+      #footer .bottomnav .copyright span {
+        margin: 0 8px; }
+    #footer .bottomnav .zhengshu a {
+      color: #666666; }
+    #footer .bottomnav .xuke a {
+      color: #666666; }
+    #footer .bottomnav .police {
+      padding-top: 5px; }
+      #footer .bottomnav .police a {
+        margin-right: 10px; }
+        #footer .bottomnav .police a img {
+          width: 20px;
+          height: 21px; }
+        #footer .bottomnav .police a span {
+          color: #999999;
+          padding: 0 8px;
+          margin-left: 5px; }

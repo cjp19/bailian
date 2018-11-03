@@ -1,0 +1,183 @@
+@import 'public.scss';
+.margin{width:952px;margin:0 auto;}
+
+#head{
+	overflow:hidden;
+	.logo{
+		display:block;
+		float:left;
+		margin:18px 40px 0 0 ;
+	}
+	span{
+		display:block;
+		float:left;
+		width:1px;
+		height:45px;
+		background:#dddddd;
+		margin:33px 30px 0 7px;
+	}
+	h3{
+		font:24px/110px "";
+	}
+}
+
+#main{
+	background:url(../images/login-body.jpg) no-repeat;
+	.login{
+		padding:0 95px;
+		width:298px;
+		height:472px;
+		border:6px solid #e2e2e2;
+		background:#fff;
+		margin:30px auto;
+		.top{
+			padding-top:40px;
+			overflow:hidden;
+			p{
+				font:18px/54px "";
+				float:left;
+			}
+			a{
+				font:12px/54px "";
+				float:right;
+				color:#0088cc;
+			}
+		}
+		input{
+			width:297px;
+			height:34px;
+			border:1px solid #e2e2e2;
+			font:12px/34px "";
+			text-indent:35px;
+			margin-top:20px;
+		}
+		input:nth-of-type(1){
+			background:url(../images/user.png) no-repeat 9px 9px;
+		}
+		input:nth-of-type(2){
+			background:url(../images/pwd.png) no-repeat 9px 9px;
+		}
+		.forget{
+			float:right;
+			font:12px/12px "";
+			margin-top:20px;
+		}
+		input.btn{
+			background:#e6133c;
+			border:0;
+			height:36px;
+			color:#fff;
+			text-indent:0;
+			font:14px/36px "";
+		}
+		.huiyuan{
+			overflow:hidden;
+			img{
+				float:right;
+				margin:20px 8px 0 0;
+			}
+			a{
+				float:right;
+				font:12px/52px "";
+			}
+			a:hover{
+				color:#0088cc;
+			}
+		}
+		.lianhe{
+			p{
+				font:12px/38px "";
+				color:#999999;
+				margin-bottom:10px;
+				text-align:center;
+				position:relative;
+				i.zuo{
+					position:absolute;
+					left:0;
+					top:25px;
+					width:87px;
+					height:1px;
+					background:#e2e2e2;
+				}
+				i.you{
+					position:absolute;
+					right:0;
+					top:25px;
+					width:87px;
+					height:1px;
+					background:#e2e2e2;
+				}
+			}
+			ul{
+				overflow:hidden;
+				li{
+					width:70px;
+					height:24px;
+					margin:0 14px 10px 14px;
+					float:left;
+					background:url(../images/logo-1.png) no-repeat;
+					background-size:100% 100%;
+					opacity:.5;
+				}
+				li:hover{
+					opacity:1;
+				}
+			}
+		}
+	}
+}
+
+#footer{
+	margin-top:20px;
+	.bottomnav{
+		padding:10px 0 20px 0;
+		a:hover{
+			text-decoration:none;
+		}
+		text-align:center;
+		font:12px/24px "";
+		.hezuo{
+			a{
+				color:#000;
+			}
+			a:hover{
+				color:#ff6f6f;
+			}
+			span{
+				margin:0 8px;
+				color:#999999;
+			}
+		}
+		.copyright{
+			color:#999999;
+			span{
+				margin:0 8px;
+			}
+		}
+		.zhengshu{
+			a{
+				color:#666666;
+			}
+		}
+		.xuke{
+			a{
+				color:#666666;
+			}
+		}
+		.police{
+			padding-top:5px;
+			a{
+				margin-right:10px;
+				img{
+					width:20px;
+					height:21px;
+				}
+				span{
+					color:#999999;
+					padding:0 8px;
+					margin-left:5px;
+				}
+			}
+		}
+	}
+}
